@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Ubuntu Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: #344e41;
+
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    background-image: url("images/dallas.jpeg");
+    background-size: cover;
+    padding: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+}
+
+#title, #subtitle {
+    border-radius: 5px;;
+}
+
+#title {
+    background: #ccd5ae;
+    margin: 0 0 18px 0;
+    padding: 2px 18px;
+    font-family: "Carrois Gothic SC", sans-serif;
+}
+
+#subtitle {
+    background: #fefae0;
+    margin: 0;
+    padding: 3px 20px;
+}
+
+#activities {
+    background: #faedcd;
+    padding: 20px 0 40px 0;
+    font-size: 20px;
+}
+
+#activities h3 {
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+
+#activity-blocks {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#activities img {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.activity {
+    padding: 0 100px;
+}
+
+#guide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    background: #fefae0;
+}
+
+#guide-box {
+    background: #ccd5ae;
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    font-size: 20px;
+    width: 700px;
+    border-radius: 20px;
+    border-bottom: 10px solid #606c38;
+    color: #344e41;
+}
+
+#guide-box h3 {
+    font-size: 30px;
+}
+
+#danny {
+    margin: 0 20px 0 0;
+    width: 300px;
+}
